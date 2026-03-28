@@ -30,8 +30,8 @@ const Hero = () => {
     const xSpring = useSpring(x, { stiffness: 100, damping: 10 }) // adds spring-like property to animation
     const ySpring = useSpring(y, { stiffness: 100, damping: 10 })
 
-    const rotateY = useTransform(xSpring, [0, innerWidth], [-30, 30])
-    const rotateX = useTransform(ySpring, [0, innerHeight], [10, -30])
+    const rotateY = useTransform(xSpring, [0, innerWidth], [-50, 50])
+    const rotateX = useTransform(ySpring, [0, innerHeight], [50, -50])
 
     return (
         <div 
