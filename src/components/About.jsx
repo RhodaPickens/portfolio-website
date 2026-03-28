@@ -14,7 +14,6 @@ const About = () => {
                 alt="About Image" 
                 width={400} 
                 height={400} 
-                loading="eager" 
                 className="w-[300px] lg:w-[200px]"
                 />
                 <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify">
