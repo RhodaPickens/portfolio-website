@@ -34,7 +34,9 @@ const Hero = () => {
     const rotateX = useTransform(ySpring, [0, innerHeight], [10, -30])
 
     return (
-        <div className="h-screen grid place-items-center" 
+        <div 
+        id="home"
+        className="h-screen grid place-items-center" 
         onMouseMove={handleMouseMove} 
         onMouseEnter={handleMouseEnter}
         >

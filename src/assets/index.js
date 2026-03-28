@@ -50,7 +50,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  "Hi, I’m Rhoda, a software engineering student with a background in freelance web development. I love combining logic and creativity to build elegant, functional web experiences. I work with technologies like Java, Python, React, Next.js, and SQL to create responsive, user-friendly applications, while also paying attention to design and usability. My goal is to build websites and apps that not only function smoothly but also feel intuitive and enjoyable for users."
+  "Hi, I’m Rhoda, a software engineering student in my senior year, with 7 years of experience in freelance web development. I love combining logic and creativity to build elegant, functional web experiences. I work with technologies like Java, Python, React, Next.js, and SQL to create responsive, user-friendly applications, while also paying attention to design and usability. My goal is to build websites and apps that not only function smoothly but also feel intuitive and enjoyable for users."
   // End of About Me
 
 // Experience
