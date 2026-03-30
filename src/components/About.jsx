@@ -16,7 +16,7 @@ const About = () => {
                 height={400} 
                 className="w-[300px] lg:w-[200px]"
                 />
-                <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-left">
+                <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-left shadow-md">
                     <span className="absolute -left-5 top-20 scale-[2.5] text-zinc-100 md:hidden">{arrowLeftIcon}</span>
                     <p className="text-lg text-slate-800 first-letter:pl-3 mb-6">
                         Hi, I’m Rhoda, a <strong>Senior Software Engineering student</strong> who spent 7 years as a freelance web developer

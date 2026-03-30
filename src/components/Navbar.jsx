@@ -9,7 +9,7 @@ const Navbar = ({ id }) => {
             <span className="text-3xl font-semibold text-emerald-700">R</span>. 
             <span className="block w-min rotate-90 origin-bottom text-[12px] font-semibold">Pickens</span>
         </a>
-        <div className="flex flex-col gap-y-3 xl:gap-y-1 sm:gap-y-2 xs:gap-y-0">
+        <div className="flex flex-col gap-y-5 xl:gap-y-3 sm:gap-y-4 xs:gap-y-2">
             {navbarData.map((item, i) => (
                 <a href={`/#${item.id}`} key={i} className="group flex flex-col items-center gap-y-2">
                 <span className={`text-2xl group-hover:scale-125 xl:group-hover:scale-115 xs:group-hover:scale-100 transition-all 
