@@ -22,132 +22,84 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 
-// Experience
-export const experienceData = [
-  {
-    year: 1,
-    title: 'Foundation and Basics',
-    education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
-    experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
-    ],
-  },
-  {
-    year: 2,
-    title: 'Advanced Learning and Early Experience',
-    education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
-    experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
-    ],
-  },
-  {
-    year: 3,
-    title: 'Specialized Education and Real-World Application',
-    education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
-    experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
-    ],
-  },
-  {
-    year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
-    experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
-    ],
-  },
-  {
-    year: 5,
-    title: 'Mastery and Leadership',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
-    experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
-    ],
-  },
-]
-
 // Skills
+
 export const skillsData = [
+  // Languages & Core
   {
-    name: 'Figma',
-    icon: '/skills/figma.png',
+    name: 'Java',
+    icon: '/skills/java.png',
   },
   {
-    name: 'Photoshop',
-    icon: '/skills/photoshop.png',
-  },
-  {
-    name: 'Blender',
-    icon: '/skills/blender.png',
-  },
-  {
-    name: 'VS Code',
-    icon: '/skills/vscode.png',
-  },
-  {
-    name: 'HTML',
-    icon: '/skills/html.png',
-  },
-  {
-    name: 'CSS',
-    icon: '/skills/css.png',
+    name: 'Python',
+    icon: '/skills/python.png',
   },
   {
     name: 'JavaScript',
     icon: '/skills/js.png',
   },
   {
-    name: 'TailwindCSS',
-    icon: '/skills/tailwind.png',
+    name: 'SQL',
+    icon: '/skills/sql.png',
   },
+
+  // Frameworks & Tools
   {
-    name: 'Vite',
-    icon: '/skills/vite.png',
+    name: 'Spring Boot',
+    icon: '/skills/spring.png',
   },
   {
     name: 'ReactJS',
     icon: '/skills/react.png',
   },
   {
-    name: 'TypeScript',
-    icon: '/skills/ts.png',
-  },
-  {
-    name: 'AI',
-    icon: '/skills/ai.png',
-  },
-  {
-    name: 'Framer Motion',
-    icon: '/skills/framer.png',
-  },
-  {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
+    name: 'Angular',
+    icon: '/skills/angular.png',
   },
   {
     name: 'NextJS',
     icon: '/skills/nextjs.png',
   },
   {
-    name: 'NodeJS',
-    icon: '/skills/nodejs.png',
+    name: 'TailwindCSS',
+    icon: '/skills/tailwind.png',
+  },
+
+  // Infrastructure & Professional
+  {
+    name: 'AWS Cloud',
+    icon: '/skills/aws.png',
   },
   {
-    name: 'MongoDB',
-    icon: '/skills/mongodb.png',
+    name: 'Project Management',
+    icon: '/skills/project-management.png',
+  },
+  {
+    name: 'ITIL v4',
+    icon: '/skills/itil-4.png',
+  },
+  {
+    name: 'NodeJS',
+    icon: '/skills/nodejs.png',
   },
   {
     name: 'Github',
     icon: '/skills/github.png',
   },
+  {
+    name: 'UX/UI Design',
+    icon: '/skills/ux-ui.png',
+  },
+  {
+    name: 'Figma',
+    icon: '/skills/figma.png',
+  },
+  {
+    name: 'VS Code',
+    icon: '/skills/vscode.png',
+  },
+
+
 ]
 
 // Reviews
@@ -399,7 +351,6 @@ export const copyRightIcon = <CopyrightLineIcon />
 
 import Home5LineIcon from 'remixicon-react/Home5LineIcon'
 import UserLineIcon from 'remixicon-react/UserLineIcon'
-import HistoryLineIcon from 'remixicon-react/HistoryLineIcon'
 import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon'
 import UserStarLineIcon from 'remixicon-react/UserStarLineIcon'
 import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon'
@@ -417,11 +368,6 @@ export const navbarData = [
     id: 'about',
     name: 'About',
     icon: <UserLineIcon />,
-  },
-  {
-    id: 'experience',
-    name: 'MyRoad',
-    icon: <HistoryLineIcon />,
   },
   {
     id: 'skills',
