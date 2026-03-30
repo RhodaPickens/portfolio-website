@@ -32,7 +32,7 @@ const Skills = () => {
                     whileHover={{ scale: 1.1 }}
                     viewport={{ margin: "50px", once: true }}
                     key={i}
-                    className='flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2'>
+                    className='flex items-center justify-center gap-x-3 rounded-xl border border-yellow-900 bg-zinc-200 px-5 py-2 lg:px-2'>
                     <Image 
                         src={item.icon} 
                         alt="Skills Image" 
@@ -40,7 +40,7 @@ const Skills = () => {
                         height={100} 
                         className='h-auto w-[40px]'
                     />
-                    <p className='text-sm text-gray-600'>{item.name}</p>
+                    <p className='text-sm text-slate-800'>{item.name}</p>
                 </motion.div>
             ))}
             

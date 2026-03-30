@@ -1,47 +1,19 @@
 // Hero
-import InstagramLineIcon from 'remixicon-react/InstagramLineIcon'
-import FacebookCircleLineIcon from 'remixicon-react/FacebookCircleLineIcon'
-import DribbbleLineIcon from 'remixicon-react/DribbbleLineIcon'
-import YoutubeLineIcon from 'remixicon-react/YoutubeLineIcon'
-import GithubLineIcon from 'remixicon-react/GithubLineIcon'
-
-/* eslint-disable react/jsx-key */
-export const heroIcons = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
-]
-
-// About Me
 import GithubFillIcon from 'remixicon-react/GithubFillIcon'
-import Projector2LineIcon from 'remixicon-react/Projector2LineIcon'
-import GroupLineIcon from 'remixicon-react/GroupLineIcon'
-import AwardFillIcon from 'remixicon-react/AwardFillIcon'
+import LinkedinBoxFillIcon from 'remixicon-react/LinkedinBoxFillIcon'
 
-export const aboutData = [
+export const heroIcons2 = [
   {
-    title: 'Github Repos',
-    amount: 348,
     icon: <GithubFillIcon />,
+    link: "https://github.com/RhodaPickens",
   },
   {
-    title: 'Successful Projects',
-    amount: 227,
-    icon: <Projector2LineIcon />,
+    icon: <LinkedinBoxFillIcon />,
+    link: "https://www.linkedin.com/in/rhoda-pickens/",
   },
-  {
-    title: 'Satisfied clients',
-    amount: 176,
-    icon: <GroupLineIcon />,
-  },
-  {
-    title: 'Awards and Recognition',
-    amount: 107,
-    icon: <AwardFillIcon />,
-  },
-]
+];
+
+// About
 
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
 import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
@@ -49,9 +21,6 @@ import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
 export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
-export const aboutText =
-  "Hi, I’m Rhoda, a software engineering student in my senior year, with 7 years of experience in freelance web development. I love combining logic and creativity to build elegant, functional web experiences. I work with technologies like Java, Python, React, Next.js, and SQL to create responsive, user-friendly applications, while also paying attention to design and usability. My goal is to build websites and apps that not only function smoothly but also feel intuitive and enjoyable for users."
-  // End of About Me
 
 // Experience
 export const experienceData = [

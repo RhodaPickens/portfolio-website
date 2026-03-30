@@ -28,14 +28,14 @@ const Projects = () => {
             {projectsButton.map((text, i) => (
                 <motion.button 
                     key={i} 
-                    initial={{ opacity: i === 0 ? 1 : 0.5, scale: i === 0 ? 1.2 : 1 }}
+                    initial={{ opacity: i === 0 ? 1 : 0.8, scale: i === 0 ? 1.2 : 1 }}
                     ref={(el) => buttonsRef.current.push(el)}    // stores references to buttons
                     onClick={() => {
                         setTech(text)
                         setIndex(i)                              // updates index to current value
                     }}
-                    className="border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light
-                    tracking-wider text-gray-400"
+                    className="border border-yellow-900 rounded-xl px-2 py-1 text-sm font-medium
+                    tracking-wider text-slate-800"
                 >
                     {text}
                 </motion.button>
