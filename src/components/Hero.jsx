@@ -59,7 +59,7 @@ const Hero = () => {
                         className='h-auto w-[250px]'
                     />
                     </motion.div>
-                    <h1 className='text-center text-3xl font-bold tracking-wider text-yellow-900 sm:text-2xl'>
+                    <h1 className='text-center text-3xl font-bold tracking-wider text-slate-800 sm:text-2xl'>
                         Hi, my name is Rhoda Pickens
                     </h1>
                     <p className='text-center text-lg tracking-wider text-slate-800'>I am a Full Stack Software Engineer 👩‍💻<br />
