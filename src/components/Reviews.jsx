@@ -1,7 +1,7 @@
 "use client"
 import Heading from "./sub/Heading"
 import Image from "next/image"
-import { reviewsData, starIcons, arrowIcons } from "@/assets"
+import { reviewsData, arrowIcons } from "@/assets"
 import { useState, useRef, useEffect } from "react"
 import { animate, motion } from "framer-motion"
 
@@ -61,15 +61,6 @@ const Reviews = () => {
                     <p className='text-sm md:text-lg text-left font-light tracking-wide text-slate-800 first-letter:pl-2'>
                         {review.comment}
                     </p>
-                    <div className="flex flex-col items-center justify-center gap-y-2">
-                        <span className="text-lg font-light text-slate-800 mr-3">
-                            {review.stars.reduce((sum, item) => {
-                                return (sum += item)
-                            }, 0).toFixed(1)}</span>
-                        <div className="flex items-center gap-x-2 text-2xl text-yellow-400">
-                            {review.stars.map((star, i) => (<span key={i}>{star === 1 ? starIcons[0] : starIcons[1]}</span>))}
-                        </div>
-                    </div>
                     </motion.div>
                 ))}
             </motion.div>
