@@ -6,7 +6,7 @@ import {downloadIcon, arrowLeftIcon} from '@/assets'
 
 const About = () => {
     return (
-    <div id="about" className='min-h-screen px-12 md:px-32 lg:px-48 flex flex-col items-center justify-center'>
+    <div id="about" className='min-h-screen py-20 px-4 md:px-32 lg:px-48 flex flex-col items-center justify-center'>
             <Heading text={"About Me"} />
             <div className='w-full flex items-center justify-between md:justify-center'>
                 <Image 
@@ -14,7 +14,7 @@ const About = () => {
                 alt="About Image" 
                 width={400} 
                 height={400} 
-                className="w-[300px] lg:w-[200px]"
+                className="hidden md:block md:w-[300px] lg:w-[200px]"
                 />
                 <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-left shadow-md">
                     <span className="absolute -left-5 top-20 scale-[2.5] text-zinc-100 md:hidden">{arrowLeftIcon}</span>

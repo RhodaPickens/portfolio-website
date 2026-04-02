@@ -13,13 +13,15 @@ const Project = ({data, index}) => {
       viewport={{ once: true }}
       transition={{ duration: 1, type: 'spring', stiffness: 100 }}
       onClick={() => setShow((show) => !show)}
-      className='relative w-[350px] sm:w-full h-max border border-yellow-900 rounded-lg cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-2x1'>
+      className='relative w-full max-w-[350px] sm:max-w-none h-max border border-yellow-900 rounded-lg cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl'>
+        
         <Image 
           src={data.url}
           alt="Project Image"
           width={400}
           height={400}
-          className='rounded-lg opacity-90'/>
+          className='rounded-lg opacity-90 w-full h-auto object-cover'/>
+
         <motion.div 
           initial={{ opacity: 0}}
           animate={{ opacity: show ? 1 : 0 }} 

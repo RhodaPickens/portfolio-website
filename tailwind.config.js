@@ -13,11 +13,11 @@ module.exports = {
         },
     },
     screens: {
-        'xl': { max: '1400px' },
-        'lg': { max: '1150px' },
-        'md': { max: '767px' },
-        'sm': { max: '659px' },
-        'xs': { max: '393px' },
+        'xs': '320px', // small phones
+        'sm': '640px', // large phones
+        'md': '768px', // tablets
+        'lg': '1024px', // laptops
+        'xl': '1280px',  // desktops
     },
   },
   variants: {

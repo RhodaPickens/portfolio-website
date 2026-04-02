@@ -40,8 +40,8 @@ const Hero = () => {
         onMouseMove={handleMouseMove} 
         onMouseEnter={handleMouseEnter}
         >
-            <div>
-                <div className='flex flex-col items-center justify-center gap-y-3'>
+            <div className="py-20">
+                <div className='flex flex-col items-center justify-center gap-y-3 px-4'>
                     <motion.div 
                         className='flex items-center justify-center' 
                         style={{
@@ -56,16 +56,16 @@ const Hero = () => {
                         width={300} 
                         height={300} 
                         priority={true}
-                        className='h-auto w-[250px]'
+                        className='h-auto w-48 md:w-60 lg:w-[250px] mx-auto'
                     />
                     </motion.div>
-                    <h1 className='text-center text-3xl font-bold tracking-wider text-slate-800 sm:text-2xl'>
+                    <h1 className='text-center text-2xl font-bold tracking-wider text-slate-800 md:text-3xl lg:text-4xl'>
                         Hi, my name is Rhoda Pickens
                     </h1>
-                    <p className='text-center text-lg tracking-wider text-slate-800'>I am a Full Stack Software Engineer 👩‍💻<br />
+                    <p className='text-center text-base tracking-wider text-slate-800 md:text-lg lg:text-xl'>I am a Full Stack Software Engineer 👩‍💻<br />
                         - who loves coding and building visually pleasing experiences</p>
                 </div>
-                <div className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-900 sm:text-2xl'>
+                <div className='mt-8 flex justify-center gap-x-10 text-2xl text-yellow-900 md:text-4xl'>
                     {heroIcons2.map((item, i) => (
                         <a href={item.link}
                         target="_blank"

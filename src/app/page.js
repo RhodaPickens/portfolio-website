@@ -34,7 +34,7 @@ export default function Home() {
   return (
   <>
     <Navbar id={id} />
-    <div ref={compsRef}>  
+    <div ref={compsRef} className="pl-[70px]">  
       <Hero />
       <About />
       <Skills />

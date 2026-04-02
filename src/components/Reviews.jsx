@@ -30,7 +30,7 @@ const Reviews = () => {
     }, [index])
 
     return (
-    <div id="reviews" className='my-20 px-48'>
+    <div id="reviews" className='py-20 px-4 md:px-32 lg:px-48'>
         <Heading text={"Reviews"} />
         <div className='flex flex-col items-center justify-center'>
             <motion.div 
@@ -38,8 +38,8 @@ const Reviews = () => {
                 whileInView={{opacity: 1, x: 0}} 
                 viewport={{once: true}} 
                 transition={{duration: 0.4}} 
-                className='relative w-[800px] lg:w-[600px] md:w-[95%] sm:w-[280px] 
-                h-[500px] lg:h-[450px] md:h-[400px] sm:h-[600px] 
+                className='relative w-full max-w-[300px] md:max-w-[600px]
+                min-h-[550px] md:min-h-[450px]
                 flex items-center justify-center overflow-hidden'
             >
                 {reviewsData.map((review, i) => (                
@@ -48,19 +48,19 @@ const Reviews = () => {
                         key={i}
                         className='absolute inset-0 flex flex-col items-center 
                         justify-center gap-y-7 lg:gap-y-4 border border-yellow-900
-                         bg-zinc-50 p-14 lg:p-5 rounded-xl'
+                         bg-zinc-50 p-6 lg:p-5 rounded-xl'
                          ref={(el) => slides.current.push(el)}
                     >
-                    <Image 
-                        src={review.image} 
-                        alt="Reviews Image" 
-                        width={130} height={130}
-                        className='w-[130px] aspect-square rounded-full border border-yellow-900 p-4 object-contain' 
-                    />
-                    <h1 className='text-2xl md:text-xl text-center tracking-wider text-slate-800'>{review.name}</h1>
-                    <p className='text-sm md:text-lg text-left font-light tracking-wide text-slate-800 first-letter:pl-2'>
+                        <Image 
+                            src={review.image} 
+                            alt="Reviews Image" 
+                            width={130} height={130}
+                            className='w-[130px] aspect-square rounded-full border border-yellow-900 p-4 object-contain' 
+                        />
+                        <h1 className='text-2xl md:text-xl text-center tracking-wider text-slate-800'>{review.name}</h1>
+                        <p className='text-sm md:text-lg text-left font-light tracking-wide text-slate-800 first-letter:pl-2'>
                         {review.comment}
-                    </p>
+                        </p>
                     </motion.div>
                 ))}
             </motion.div>

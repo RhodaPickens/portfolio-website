@@ -22,9 +22,11 @@ const Projects = () => {
   }, [index])
 
   return (
-    <div id="projects" className="min-h-screen py-20 px-48">
+    <div id="projects" className="min-h-screen py-20 px-4 md:px-32 lg:px-48 flex flex-col items-center">
+
         <Heading text={"Projects"}/>
-        <div className='flex flex-wrap items-center justify-between gap-4 py-10'>
+
+        <div className='flex flex-wrap items-center justify-center gap-2 py-10 w-full'>
             {projectsButton.map((text, i) => (
                 <motion.button 
                     key={i} 
@@ -34,21 +36,21 @@ const Projects = () => {
                         setTech(text)
                         setIndex(i)                              // updates index to current value
                     }}
-                    className="border border-yellow-900 rounded-xl px-2 py-1 text-sm font-medium
+                    className="border border-yellow-900 rounded-xl px-4 py-2 text-sm font-medium
                     tracking-wider text-slate-800"
-                >
+                    >
                     {text}
                 </motion.button>
             ))}           
         </div>
         <div className="flex flex-wrap items-center justify-center gap-5">
-                {projectsData.filter((project) => {      // checks which project should be displayed
-                    return project.tech.some((item) => (tech === 'All' ? true : item === tech))
-                }).map((data, i) => (
-                    <motion.div key={`id-${i}`} layout>
-                        <Project data={data} index={i} />
-                    </motion.div>
-                ))}           
+            {projectsData.filter((project) => {      // checks which project should be displayed
+                return project.tech.some((item) => (tech === 'All' ? true : item === tech))
+            }).map((data, i) => (
+                <motion.div key={`id-${i}`} layout>
+                    <Project data={data} index={i} />
+                </motion.div>
+            ))}           
         </div>
     </div>
   )
