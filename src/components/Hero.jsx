@@ -63,7 +63,7 @@ const Hero = () => {
                         Hi, my name is Rhoda Pickens
                     </h1>
                     <p className='text-center text-base tracking-wider text-slate-800 md:text-lg lg:text-xl'>I am a Full Stack Software Engineer 👩‍💻<br />
-                        - who loves coding and building beautiful websites</p>
+                        - I like building things that work well, look good, and solve real problems</p>
                 </div>
                 <div className='mt-8 flex justify-center gap-x-10 text-2xl text-yellow-900 md:text-4xl'>
                     {heroIcons2.map((item, i) => (
