@@ -28,7 +28,7 @@ const About = () => {
                         My true passion lies in the act of coding itself - I love the process of taking a complex problem 
                         and translating it into a clean, functional project that actually works for the user.
                     </p>
-                    <a href="/rhoda-pickens-resume.pdf" download="" className="w-max flex items-center gap-x-2 mt-6 rounded-full border
+                    <a href="/rhoda-pickens-resume-2026.pdf" download="" className="w-max flex items-center gap-x-2 mt-6 rounded-full border
                      border-gray-300 bg-emerald-700 px-3 py-2 font-semibold text-white hover:bg-emerald-800 transition-colors">
                         <span>Download CV</span>
                         <span className="text-xl">{downloadIcon}</span>

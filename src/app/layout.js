@@ -14,7 +14,21 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Rhoda Pickens",
-  description: "Portfolio Website",
+  description: "Software Engineering student at WGU and freelance web developer",
+  keywords: [
+    "Rhoda Pickens",
+    "Software Engineer", 
+    "WGU Software Engineering",
+    "Java Spring Boot Developer",
+    "Python",
+    "Perl Scripting",
+    "Full Stack Development",
+    "AWS",
+    "Docker",
+    "Angular",
+    "ReactJS",
+    "SQL"
+  ],
 };
 
 export default function RootLayout({ children }) {
