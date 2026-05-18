@@ -33,7 +33,7 @@ const Project = ({data, index}) => {
             <a href={data.demoUrl} target="_blank"
             className="border border-yellow-900 rounded-xl px-2 py-1 text-sm font-medium
                     tracking-wider text-slate-800">
-            View Prototype
+            View Project
           </a>
           )}
             
