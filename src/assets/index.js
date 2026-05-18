@@ -137,6 +137,13 @@ export const projectsData = [
     demoUrl: 'https://placingpawsrescue.org/',
     tech: ['HTML', 'CSS', 'CMS'],
   },
+      {
+    name: 'Brooke Lambkin',
+    desc: 'A responsive static website designed and built from scratch for a singer-songwriter, deployed on Netlify',
+    url: '/projects/brooke-lambkin.jpg',
+    demoUrl: 'https://brookelambkin.com/',
+    tech: ['HTML', 'CSS'],
+  },
 ]
 
 export const projectsButton = [
