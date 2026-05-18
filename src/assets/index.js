@@ -130,6 +130,13 @@ export const projectsData = [
     url: '/projects/paradigm-pets-prototype.png',
     tech: ['Figma'],
   },
+    {
+    name: 'Placing Paws Rescue',
+    desc: 'Designed and developed a complete end-to-end website overhaul for an animal rescue organization, prioritizing intuitive UI/UX, responsive layouts, and seamless content management',
+    url: '/projects/placing-paws-rescue.jpg',
+    demoUrl: 'https://placingpawsrescue.org/',
+    tech: ['HTML', 'CSS', 'CMS'],
+  },
 ]
 
 export const projectsButton = [
@@ -143,6 +150,7 @@ export const projectsButton = [
   'HTML',
   'CSS',
   'Figma',
+  'CMS',
 ]
 
 // Reviews
